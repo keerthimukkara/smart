@@ -62,6 +62,386 @@ header a {
   width: 100%;
 }
 
+
+
+
+
+* {
+  box-sizing: border-box;
+letter-spacing:0.3px;
+}
+body {
+  margin: 0;
+
+}
+
+.navbar {
+ 
+  background-color: black;
+font-size: 15px;
+  font-family: arial;
+font-weight:bold;
+height:36px;
+margin-top:0;
+position:fixed;
+width:100%;
+box-shadow: none;
+z-index: 3;
+}
+
+.navbar a {
+
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding-left:50px;
+  padding-right:0px;
+ 
+}
+#women{
+margin-left:120px;
+}
+.dropdown {
+  float: left;
+
+
+overflow:hidden;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 9px 22.3px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 85%;
+margin-left: 60px;
+  box-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.35);
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width:33.2999%;
+  margin-top:0px;
+  background-color: white;
+  height: 610px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 85%;
+    height: auto;
+  }
+}
+
+
+
+
+.wp-caption {
+  position: relative;
+  padding: 10;
+  margin: 10;
+margin-left:20;
+  display: inline-block;
+  width: 30%;
+}
+
+
+.wp-caption:after {
+  content: "";
+  position: absolute;
+  left: 20;
+  bottom: 20;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0)60%, rgba(0, 0, 0, 0.9) 120%) repeat 0 0;
+  z-index: 1;
+}
+
+.wp-caption-text {
+  position: absolute;
+font-family:arial;
+  color: #fff;
+  left: 40px; 
+  bottom: 40px; 
+  font-weight: 700;
+  z-index: 2;
+   font-size:17px;
+}
+
+.demo {
+  padding: 0;
+  margin: 10px;
+}
+.wp-captio {
+  position: relative;
+  padding: 10;
+  margin: 10;
+margin-left:20;
+  display: inline-block;
+  width: 30%;
+}
+
+
+
+.wp-captio:after {
+  content: "";
+  position: absolute;
+  left: 20;
+  bottom: 20;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0)60%, rgba(0, 0, 0, 0.9) 120%) repeat 0 0;
+  z-index: 1;
+}
+
+
+.wp-capti {
+  position: relative;
+  padding: 10;
+  margin: 10;
+margin-left:20;
+
+  display: inline-block;
+  width: 30%;
+}
+
+
+
+.wp-capti:after {
+  content: "";
+  position: absolute;
+  left: 20;
+  bottom: 20;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0)60%, rgba(0, 0, 0, 0.9) 120%) repeat 0 0;
+  z-index: 1;
+}
+
+
+
+
+
+.image-container {
+  display: flex;
+}
+
+.side-by-side-image {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.container .btn {
+  position: absolute;
+  top: 64.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-family: arial;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 126px;
+  height: 43px;
+  text-align: center;
+  z-index: 2;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+.image-contain {
+  display: flex;
+  gap: 60px; 
+  flex-wrap: wrap;
+}
+
+.im {
+  border-radius: 50%;
+  margin-bottom: 10px; 
+}
+
+.text {
+  text-align: center;
+font-size:12;
+font-family:arial;
+width:90;
+}
+
+
+
+
+
+a.mobile-link:link {
+  color: black;
+}
+
+/* visited link */
+a.mobile-link:visited {
+  color: black;
+}
+
+/* mouse over link */
+a.mobile-link:hover {
+  color: black;
+}
+
+/* selected link */
+a.mobile-link:active {
+  color: black;
+}
+
+
+
+.container .btnn {
+  position: absolute;
+  top: 74.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-family: arial;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 126px;
+  height: 43px;
+  text-align: center;
+  z-index: 2;
+margin-left:-346;
+}
+
+.container .btnn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+.css {
+margin-top:0;
+  height: 37px;
+  overflow: hidden;
+color:black;
+text-align: center;
+}
+
+.css span {
+  display: block;
+
+  margin-bottom: 44px;
+  animation: scrollText 7s  infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateY(50px);
+  }
+  25% {
+    transform: translateY(16px);
+  }
+  35% {
+    transform: translateY(16px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+.css:hover span{
+
+animation-play-state: paused;
+
+}
+.css a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+#scroll {
+  position: absolute;
+  animation: moveImage 15s linear infinite;
+  left: -350px;
+}
+
+@keyframes moveImage {
+    100%{
+      transform: translateX(calc(100vw + 350px));
+    }
+}
+
+
+
+
+
+
+
+
+
 </style> 
     
    
@@ -69,12 +449,12 @@ header a {
     
     
   </head>
-  <body vlink="black" link="black" alink="black">
+  <body vlink="white" link="white" alink="white">
 <header>
   <div class="nav-bg"></div>
   <ul>
-    <li><a href="">Store Locator</a></li>
-    <li><a href="">Help</a></li>
+    <li><a href=""  style="color:black">Store Locator </a></li>
+    <li><a href=""  style="color:black">Help</a></li>
   </ul>
 </header>
 <pre>
@@ -82,75 +462,517 @@ header a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </pre>
+
+
+
+<div class="navbar">
+  
+  <div class="dropdown">
+    <button class="dropbtn"><span id="women">Women</span>
+     
+    </button>
+    <div class="dropdown-content">   
+      <div class="row">
+        <div class="column">
+          <h3>Category 1</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <div class="column">
+          <h3>Category 2</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <div class="column">
+          <h3>Category 3</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Men
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Boys
+    </button>
+    <div class="dropdown-content">
+        
+      <div class="row">
+        <div class="column">
+          <h3>Category 7</h3>
+          <a href="#">Link 7</a>
+          <a href="#">Link 8</a>
+          <a href="#">Link 9</a>
+        </div>
+        <div class="column">
+          <h3>Category 8</h3>
+          <a href="#">Link 7</a>
+          <a href="#">Link 8</a>
+          <a href="#">Link 9</a>
+        </div>
+        <div class="column">
+          <h3>Category 9</h3>
+          <a href="#">Link 7</a>
+          <a href="#">Link 8</a>
+          <a href="#">Link 9</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Girls
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="dropdown">
+    <button class="dropbtn">Home
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn"><span style="color:yellow;letter-spacing: 0.8px">Holiday Shop</span>
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn">Brands
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn">Baby
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn">Beauty
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn">Gifts&Flowers
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn">Sports
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="dropdown">
+    <button class="dropbtn"><span style="color:orange;letter-spacing: 0.8px">Clearance</span>
+
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>Category 4</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 5</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="column">
+          <h3>Category 6</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<br><br>
+<div class="css" >
+  <span><a href="" style="color:black;font-size:20">Be in the know-opt to emails</a></span>
+  <span><a href="" style="color:black;font-size:20;">Next day delivery available to home or store.*</a></span>
+</div>
+
+
+
+
+<figure class="wp-caption">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\new-arrivals-women-s-2-data-low-data (1).jpg" />
+  <figcaption class="wp-caption-text">Warm weather tops
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span>
+</figcaption>
+</figure>
+
+<figure class="wp-caption">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\garden2-data.jpg" />
+  <figcaption class="wp-caption-text">Garden furniture updates
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span></figcaption>
+</figure>
+
+<figure class="wp-caption">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\mens-shorts-data.jpg" />
+  <figcaption class="wp-caption-text">Explore men's shorts
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span></figcaption>
+</figure>
+
+
+
+<br>
+
+
+<div class="image-container" style="margin-left:41">
+  <div class="container">
+    <img class="side-by-side-image" src="C:\Users\keert\OneDrive\Desktop\homepgimg\edited1.png" height="279" width="691" alt="Image 1">
+    <button class="btn">Shop now</button>
+  </div>
+  <img class="side-by-side-image" src="C:\Users\keert\OneDrive\Desktop\homepgimg\summer-dt-data.jpg" height="279" width="694" alt="Image 2">
+</div>
+
+<br>
+
+
+
+<div class="image-contain">
+  <div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\womens-blue-data.jpg" alt="Avatar" style="width: 95px;margin-left:65;" >
+    <div style="margin-left:70;" class="text">women's summer blues</div>
+  </div>
+  
+  
+  
+  <div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\menv2-data.jpg" alt="Avatar" style="width: 95px;">
+    <div class="text">Men's utility trend</div>
+  </div>
+
+ <div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\girls-prints-data.jpg" alt="Avatar" style="width: 95px;">
+    <div class="text">Girls patterns</div>
+  </div>
+
+
+ <div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\boys-data.jpg" alt="Avatar" style="width: 95px;">
+    <div class="text">Boys neutrals</div>
+  </div>
+
+ <div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\milli-data.jpg" alt="Avatar" style="width: 95px;">
+    <div class="text">MM X FLT</div>
+  </div>
+
+ <div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\pourmoi-1--data.jpg" alt="Avatar" style="width: 95px;">
+    <div class="text">Pour Moi</div>
+  </div>
+
+ <div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\fathers-day-11-min-data.jpg" alt="Avatar" style="width: 95px;">
+    <div class="text">Father's Day</div>
+  </div>
+
+ <div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\crocs-roundel-data.jpg" alt="Avatar" style="width: 95px;">
+    <div class="text">Crocs</div>
+  </div>
+
+<div class="image-wrapper">
+    <img class="im" src="C:\Users\keert\OneDrive\Desktop\homepgimg\a-z-brands-data.jpg" alt="Avatar" style="width: 95px;">
+    <div class="text">A-Z Brands</div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+<figure class="wp-captio">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\children-min-data (1).jpg" />
+  <figcaption class="wp-caption-text">Explore kid's wear
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span>
+</figcaption>
+</figure>
+
+<figure class="wp-captio">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\women-s-sandals-min-data.jpg" />
+  <figcaption class="wp-caption-text">Explore women's wear
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span></figcaption>
+</figure>
+
+<figure class="wp-captio">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\boys-tops-1--data.jpg" />
+  <figcaption class="wp-caption-text">Explore boy's shorts
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span></figcaption>
+</figure>
+
+
+
+
+<br>
+
+<img id="scroll" src="C:\Users\keert\OneDrive\Desktop\homepgimg\gap-logo-data.png"/>
+
+
+<br><br><br><br><br><br>
+
+
+
+<figure class="wp-capti">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\girls-trainers-data.jpg" />
+  <figcaption class="wp-caption-text">Explore women's wear
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span></figcaption>
+</figure>
+
+<figure class="wp-capti">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\mintvelvet-data.jpg" />
+  <figcaption class="wp-caption-text">Explore mint wear
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span>
+</figcaption>
+</figure>
+
+
+<figure class="wp-capti">
+  <img class="demo" height="556" width="440" src="C:\Users\keert\OneDrive\Desktop\homepgimg\ghd2-data.jpg" />
+  <figcaption class="wp-caption-text">Explore hair accessories
+<br>
+<span style=" font-size:15px;font-weight: lighter;"><a href="">shop now</a></span></figcaption>
+</figure>
+<br>
+<div class="container">
+  <img src="C:\Users\keert\OneDrive\Desktop\homepgimg\Men's Officewear.png" alt="Snow" style="width: 1385px; height: 350px;margin-left:41;"/>
+  <button class="btnn">shop now</button>
+</div>
+
+
 <br><br>
 <center>
 <span style="font-size: 9pt; font-weight:500; font-family:tahoma">*Next day delivery is subject to stock, courier availability and courier area.  Order cut off times may vary.  For full exceptions please refer to our <b>terms & conditions.</b></span><br><br>
@@ -205,8 +1027,9 @@ email entering <br>
 </table><br></center>
 </footer>
 <footer>
-  <p><a href=“mobile site” style="font-size: 11pt; font-family:tahoma ">View mobile site </a><br>
-  <p style="color:#484848;font-size: 11pt; font-family:tahoma ">© 2023 Next Retail Ltd. All rights reserved.</p></p>
+<br>
+  <p><a class="mobile-link" href=“mobile site” style="font-size: 11.4pt; font-family:tahoma ">View mobile site </a><br>
+  <p style="color:#484848;font-size: 10.5pt; font-family:tahoma ">© 2023 Next Retail Ltd. All rights reserved.</p></p>
 </footer>
 </body>
 </html>
